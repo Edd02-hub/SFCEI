@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanry's Foreign Currency Exchange Inc.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #e8f5e9; /* Light green background */
+            display: flex;
+        }
+        header {
+            background: #4caf50; /* Dark green header */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            width: 100%;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-left: auto; /* Aligns the navigation to the right */
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* Space between buttons */
+            position: sticky;
+            top: 20px; /* Keeps navigation fixed */
+        }
+        nav button {
+            background-color: #66bb6a; /* Lighter green */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav button:hover {
+            background-color: #57a05c; /* Darker green on hover */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #66bb6a; /* Lighter green for table header */
+            color: white;
+        }
+        .highlight {
+            background-color: #c8e6c9; /* Light highlight for important currencies */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .animated-image {
+            margin: 20px auto;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sanry's Foreign Currency Exchange Inc.</h1>
+    <img src="money-400x300.gif" alt="Animated Foreign Currencies" class="animated-image">
+    <video width="640" height="360" controls>
+        <source src="vecteezy_giving-money-to-a-person-4k-animation-money-exchanging_8954621.mp4" type="video/mp4">
+    </video>  
+    <p>Your trusted partner in currency exchange and remittance.</p>
+</header>
+
+<nav>
+    <button onclick="alert('You are on the Home page!')">HOME</button>
+    <button onclick="alert('About Us section coming soon!')">ABOUT</button>
+    <button onclick="alert('Locate Us Here section coming soon!')">LOCATE US HERE</button>
+    <button onclick="alert('Contact Us section coming soon!')">CONTACTS</button>
+    <button onclick="alert('Help section coming soon!')">HELP</button>
+</nav>
+
+<div class="container">
+    <h2>Current Exchange Rates (to PHP)</h2>
+    <table>
+        <tr>
+            <th>Currency</th>
+            <th>Exchange Rate (to PHP)</th>
+        </tr>
+        <tr class="highlight">
+            <td>USD</td>
+            <td contenteditable="true">55.00</td>
+        </tr>
+        <tr class="highlight">
+            <td>EUR</td>
+            <td contenteditable="true">60.00</td>
+        </tr>
+        <tr class="highlight">
+            <td>JPY</td>
+            <td contenteditable="true">0.50</td>
+        </tr>
+        <tr>
+            <td>AUD</td>
+            <td contenteditable="true">40.00</td>
+        </tr>
+        <tr>
+            <td>KWD</td>
+            <td contenteditable="true">180.00</td>
+        </tr>
+        <tr>
+            <td>SGD</td>
+            <td contenteditable="true">42.00</td>
+        </tr>
+        <tr>
+            <td>BHD</td>
+            <td contenteditable="true">150.00</td>
+        </tr>
+        <tr>
+            <td>MYR</td>
+            <td contenteditable="true">12.00</td>
+        </tr>
+        <tr>
+            <td>CHF</td>
+            <td contenteditable="true">58.00</td>
+        </tr>
+        <tr>
+            <td>BND</td>
+            <td contenteditable="true">39.00</td>
+        </tr>
+        <tr>
+            <td>TWD</td>
+            <td contenteditable="true">2.00</td>
+        </tr>
+        <tr>
+            <td>SAR</td>
+            <td contenteditable="true">14.00</td>
+        </tr>
+        <tr>
+            <td>CAD</td>
+            <td contenteditable="true">43.00</td>
+        </tr>
+        <tr>
+            <td>NZD</td>
+            <td contenteditable="true">38.00</td>
+        </tr>
+        <tr>
+            <td>THB</td>
+            <td contenteditable="true">1.80</td>
+        </tr>
+        <tr>
+            <td>CNY</td>
+            <td contenteditable="true">8.00</td>
+        </tr>
+        <tr>
+            <td>GBP</td>
+            <td contenteditable="true">70.00</td>
+        </tr>
+        <tr>
+            <td>AED</td>
+            <td contenteditable="true">15.00</td>
+        </tr>
+        <tr>
+            <td>HKD</td>
+            <td contenteditable="true">7.00</td>
+        </tr>
+        <tr>
+            <td>QAR</td>
+            <td contenteditable="true">15.00</td>
+        </tr>
+        <tr>
+            <td>KRW</td>
+            <td contenteditable="true">0.04</td>
+        </tr>
+    </table>
+
+    <h2>About Us</h2>
+    <p>Sanry's Foreign Currency Exchange Inc. is dedicated to providing the best exchange rates and reliable remittance services. Our company is committed to transparency and customer satisfaction.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sanry's Foreign Currency Exchange Inc.</p>
+</footer>
+
+</body>
+</html>
